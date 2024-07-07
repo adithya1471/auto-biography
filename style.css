@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    width: 100%;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    /* display: inline; */
+}
+h1{
+    cursor: pointer;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 30px;
+}
+
+main section {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 220px;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    margin-top: 25px;
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#later-life{
+    margin-bottom: 100px;
+    padding-bottom: 20px;
+}
+details summary:hover,
+section h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+img:hover {
+    width: 230px;
+    height: 230px;
+    transition: 0.5s;
+    cursor: pointer;
+}
